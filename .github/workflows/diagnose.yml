@@ -12,6 +12,8 @@ permissions:
 jobs:
   diagnose:
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
     steps:
       - name: Inspect default workflow permissions
         run: |
@@ -21,7 +23,7 @@ jobs:
         run: |
           echo "=== POST /pages ==="
           gh api "repos/$GITHUB_REPOSITORY/pages" -X POST -f build_type=workflow || true
-      - name: Check token permissions header
+      - name: Get Pages site
         run: |
-          echo "=== response headers from pages GET ==="
-          gh api "repos/$GITHUB_REPOSITORY/pages" -i || true
+          echo "=== GET /pages ==="
+          gh api "repos/$GITHUB_REPOSITORY/pages" || true
