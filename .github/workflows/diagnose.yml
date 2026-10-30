@@ -1,0 +1,27 @@
+name: Diagnose Pages & Actions permissions
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+  pages: write
+  id-token: write
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Inspect default workflow permissions
+        run: |
+          echo "=== default workflow permissions ==="
+          gh api "repos/$GITHUB_REPOSITORY/actions/permissions/workflow" || true
+      - name: Try to create Pages site (build_type=workflow)
+        run: |
+          echo "=== POST /pages ==="
+          gh api "repos/$GITHUB_REPOSITORY/pages" -X POST -f build_type=workflow || true
+      - name: Check token permissions header
+        run: |
+          echo "=== response headers from pages GET ==="
+          gh api "repos/$GITHUB_REPOSITORY/pages" -i || true
