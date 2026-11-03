@@ -27,9 +27,9 @@ redirect_from:
 
 - **Research Intern**, MINIMAX (AI/technology company), February 2025 – Present
 - **Research Intern**, Tencent WXG (part of Tencent), June 2024 – September 2024
-  - Advisor: Zifei Shan
+  - Advisor: Zifei Shan, Tencent WXG
 - **Research Intern**, Shanghai AI Lab (AI research laboratory), June 2023 – December 2023
-  - Advisor: Prof. Yu Cheng
+  - Advisor: Prof. Yu Cheng, Shanghai AI Lab
 
 ## Research Interests
 
