@@ -20,14 +20,15 @@ redirect_from:
 - **B.Eng.** (2020 – 2024), Shanghai Jiao Tong University (graduated in June 2024)
 - **PhD supervisor:** Professor Junxian He, HKUST NLP Group
 - Previously advised by Professor Junxian He during undergraduate studies at Shanghai Jiao Tong University
+- **HKUST NLP Group:** Research group at Hong Kong University of Science and Technology, led by Professor Junxian He, focusing on natural language processing research
 - **Zhiyuan Honor Scholarship**, Shanghai Jiao Tong University
 
 ## Research Experience
 
-- **Research Intern**, MINIMAX (February 2025 – Present)
-- **Research Intern**, Tencent WXG (June 2024 – September 2024)
+- **Research Intern**, MINIMAX (AI/technology company), February 2025 – Present
+- **Research Intern**, Tencent WXG (part of Tencent), June 2024 – September 2024
   - Advisor: Zifei Shan
-- **Research Intern**, Shanghai AI Lab (June 2023 – December 2023)
+- **Research Intern**, Shanghai AI Lab (AI research laboratory), June 2023 – December 2023
   - Advisor: Prof. Yu Cheng
 
 ## Research Interests
